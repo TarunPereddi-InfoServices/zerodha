@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.7;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.header{
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.logo img{
+    height: 17px;
+}
+
+nav{
+    width: 45%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    color: #666;
+    font-size: .9rem;
+    font-weight: 400;
+    transition: all 0.2s ease;
+}
+nav ul li:hover{
+    font-weight: 600;
+    color: #387ed1;
+}
